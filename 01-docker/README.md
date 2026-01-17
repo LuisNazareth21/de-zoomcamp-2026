@@ -1,20 +1,15 @@
-# Data Engineering Zoomcamp 2026
+# Module 01 – Docker
 
-This repository contains my learning notes and projects for  
-**Data Engineering Zoomcamp 2026 by DataTalksClub**.
+This folder contains materials for **Module 01: Docker**  
+from Data Engineering Zoomcamp 2026.
 
-## Modules
+## Contents
+- `pipeline.py` – simple Python pipeline example
+- `main.py` – entry point
+- `pyproject.toml` – project configuration (uv)
+- `uv.lock` – locked dependencies
 
-- **01-docker**
-  - Python pipeline
-  - uv dependency management
-  - (next) Dockerfile & containerization
+## How to run
 
-## Tech Stack
-- Python 3.13
-- uv
-- Docker (next)
-- Git & GitHub
-
-## Author
-Luis Nazareth
+```bash
+uv run python pipeline.py 12
